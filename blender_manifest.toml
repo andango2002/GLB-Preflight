@@ -1,0 +1,13 @@
+schema_version = "1.0.0"
+id = "glb_preflight"
+version = "0.1.4"
+name = "GLB Preflight"
+tagline = "Check and prepare Blender models for reliable GLB export"
+maintainer = "Akinaru Iino"
+type = "add-on"
+tags = ["Import-Export"]
+blender_version_min = "4.5.0"
+license = ["SPDX:GPL-3.0-or-later"]
+
+[permissions]
+files = "Export repaired GLB files selected by the user"
